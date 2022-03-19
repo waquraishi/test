@@ -41,7 +41,7 @@ class _HomePageWidgetState extends State<HomePageWidget> {
             mainAxisSize: MainAxisSize.max,
             children: [
               FlutterFlowWebView(
-                url: 'https://www.last.fm/music/Sevendust',
+                url: 'https://www.youtube.com/channel/UCA48CJ7jsQc2hG2FG0735Mg',
                 bypass: true,
                 height: MediaQuery.of(context).size.height * 0.8,
                 verticalScroll: false,
