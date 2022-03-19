@@ -41,9 +41,8 @@ class _HomePageWidgetState extends State<HomePageWidget> {
             mainAxisSize: MainAxisSize.max,
             children: [
               FlutterFlowWebView(
-                url: 'https://www.youtube.com/results?search_query=anthrax',
+                url: 'https://flutter.dev',
                 bypass: false,
-                height: MediaQuery.of(context).size.height * 0.8,
                 verticalScroll: false,
                 horizontalScroll: false,
               ),
